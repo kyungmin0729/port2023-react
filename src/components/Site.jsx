@@ -7,7 +7,7 @@ const Site = () => {
         <section id="site">
             <div className="site__inner">
                 <h2 className="site__title">
-                    Site Coding <em>나의 작업물</em>
+                    FE/BE Coding <em>나의 포트폴리오</em>
                 </h2>
                 <div className="site__wrap">
                     {siteText.map((site, key) => (
@@ -22,7 +22,7 @@ const Site = () => {
                                 {site.title}
                             </h3>
                             <div className="btn">
-                                <a href={site.code}>code</a>
+                                <a href={site.gitHub}>gitHub</a>
                                 <a href={site.view}>view</a>
                             </div>
                             <div className="info">
