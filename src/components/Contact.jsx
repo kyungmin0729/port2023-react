@@ -1,6 +1,7 @@
 import React from "react";
-
+import { Icon } from "./Icon";
 import { contactText } from "../constants";
+
 
 const Contact = () => {
     return (
@@ -20,6 +21,7 @@ const Contact = () => {
                     <div className="text">
                         {contactText.map((contact, key) => (
                             <div key={key}>
+                                <Icon />
                                 <a 
                                     href={contact.link} 
                                     rel="noopener noreferrer" 
@@ -29,7 +31,6 @@ const Contact = () => {
                                 </a>
                             </div>
                         ))}
-                       
                     </div>
                 </div>
                 <div className="contact__lines" aria-hidden="true">

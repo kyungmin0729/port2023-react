@@ -92,10 +92,6 @@ export const siteText = [
 
 export const contactText = [
     {
-        link: "http://qr.kakao.com/talk/4NfHyl.yNYgyEVBv_PPS6.WrdEM-",
-        title: "My KaKao Link",
-    },
-    {
         link: "https://mail.naver.com/write/popup/?orderType=new&to=kyungmin0729@naver.com",
         title: "My Mail Link ",
     },
@@ -129,7 +125,7 @@ export const footerText = [
     },
     {
         title: "todoList_FE",
-        desc: "Context API를 사용한 전역 상태 관리를 활용한 체크 리스트 프로그램",
+        desc: "Context API를 사용하여 전역 상태 관리를 활용한 체크 리스트 프로그램",
         link: "https://github.com/kyungmin0729/port2023-todo_FE#readme",
     },
 ];

@@ -7,7 +7,7 @@ const Site = () => {
         <section id="site">
             <div className="site__inner">
                 <h2 className="site__title">
-                    FE/BE Coding <em>나의 포트폴리오</em>
+                    FE/BE Coding <em>My portfolio</em>
                 </h2>
                 <div className="site__wrap">
                     {siteText.map((site, key) => (

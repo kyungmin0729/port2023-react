@@ -12,13 +12,15 @@ const Footer = () => {
                 </h2>
                 <div className="footer__info">
                     <div className="left">
-                        <div className="title">
-                            <a href="https://github.com/kyungmin0729">GitHub</a>
-                        </div>
-                        <p className="desc">깃헙으로 오시면 작업물을 한번에 보실 수 있습니다.</p>
+                            <div className="title">
+                                <a href="https://github.com/kyungmin0729">GitHub</a>
+                            </div>
+                        <p className="desc">GITHUB를 클릭하시면 작업물을 한번에 보실 수 있습니다.</p>
                     </div>
                     <div className="right">
-                        <h3>More details</h3>
+                        <h3>More details<br />
+                        README.md에 자세한 내용을 담았습니다.
+                        </h3>
                         <ul>
                             {footerText.map((footer, key) => (
                                 <li key={key}>

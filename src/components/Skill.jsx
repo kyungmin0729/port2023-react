@@ -1,14 +1,19 @@
 import React from "react";
-
+import { Cicon, JavaIcon, CssIcon } from "./Icon";
 import { skillText } from "../constants";
 
 const Skill = () => {
     return (
         <section id="skill">
             <div className="slkll__inner">
-                <h2 className="skill__title">
-                    Skills <em>집념과 도전정신</em>
-                </h2>
+                <div className="skill__title">
+                    <h2>
+                        Skills <em>집념과 도전정신</em><br />
+                        Language<br />
+                        <JavaIcon /><Cicon /><CssIcon />
+                        
+                    </h2>
+                </div>
                 <div className="skill__desc">
                     {skillText.map((skill, key) => (
                         <div key={key}>
