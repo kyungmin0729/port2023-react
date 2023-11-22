@@ -32,7 +32,18 @@
             text-transform: none;
 
         }
-
+        h3 {
+            font-size: 3vw;
+            font-weight: 900;
+            line-height: 1.2;
+            font-family: var(--mainKor-font);
+            text-transform: none;
+        }
+        svg {
+            position: relative;
+            top: 10px;
+            margin-left: 10px;
+        }
         em {
             font-size: 1.25rem;
             font-weight: 400;

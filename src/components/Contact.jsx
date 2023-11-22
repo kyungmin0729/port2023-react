@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "./Icon";
+import { NaverIcon } from "./Icon";
 import { contactText } from "../constants";
 
 
@@ -21,7 +21,7 @@ const Contact = () => {
                     <div className="text">
                         {contactText.map((contact, key) => (
                             <div key={key}>
-                                <Icon />
+                                <NaverIcon />
                                 <a 
                                     href={contact.link} 
                                     rel="noopener noreferrer" 
