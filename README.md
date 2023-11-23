@@ -1,10 +1,12 @@
-# 포트폴리오 사이트 만들기 프로젝트
+# 프로젝트 명
 
-## 완성작 보기
+- 포트폴리오 메인 사이트
 
-미리보기 :
+## 프로젝트 개요
 
-## 사용 스택
+-
+
+## 기술 스택
 
 - react(https://ko.legacy.reactjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
 - gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줍니다.
@@ -20,3 +22,4 @@
 - sass를 설치합니다. `npm install sass`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
+

@@ -15,38 +15,6 @@ import { Cicon, JavaIcon, CssIcon, HtmlIcon, JavascriptIcon, TypescriptIcon,
 import { skillText } from "../constants";
 
 const Skill = () => {
-    useEffect(() => {
-      const lenis = new Lenis({
-        duration: 1,
-        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      });
-  
-      const handleAnchorClick = (e) => {
-        e.preventDefault();
-  
-        const targetId = e.currentTarget.getAttribute("href");
-        const targetElement = document.querySelector(targetId);
-  
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: "smooth" });
-        }
-      };
-  
-      const anchorLinks = document.querySelectorAll("a[href^='#']");
-      anchorLinks.forEach((anchor) => {
-        anchor.addEventListener("click", handleAnchorClick);
-      });
-  
-      lenis.on("scroll", (e) => {
-        console.log(e);
-      });
-  
-      return () => {
-        anchorLinks.forEach((anchor) => {
-          anchor.removeEventListener("click", handleAnchorClick);
-        });
-      };
-    }, []);
 
     return (
         <section id="skill">

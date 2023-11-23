@@ -1739,10 +1739,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@studio-freight/lenis@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.19.tgz"
-  integrity sha512-0DZdjDaJqhYVxzcbj6Dpv/BHS/RLc4f6XYu/n0t0fUKatuvO5vtXW4gW4GHgJPiPIpamct7bg8hpihbjZ6fqpw==
+"@studio-freight/lenis@^1.0.28":
+  version "1.0.28"
+  resolved "https://registry.npmjs.org/@studio-freight/lenis/-/lenis-1.0.28.tgz"
+  integrity sha512-+t2rKphnNCpaCuoSZjR3/c21wuuALlgb9ldwwKaGDsk9f6le7KXNYJisp5uJJC9Gz6FG37y+IH20OMNGGJqBXA==
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
