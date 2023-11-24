@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Skip from "../components/Skip";
 import Intro from "../components/Intro";
 import Skill from "../components/Skill";
+import { GitIcon } from "../components/Icon";
 import Site from "../components/Site";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -16,6 +17,7 @@ const HomeView = () => {
         <Main>
           <Intro />
           <Skill />
+          { GitIcon }
           <Site />
           <Contact />
         </Main>

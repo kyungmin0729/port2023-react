@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+import React from "react";
 
 import { Cicon, JavaIcon, CssIcon, HtmlIcon, JavascriptIcon, TypescriptIcon,
             MysqlIcon, OracleIcon,
