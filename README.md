@@ -22,4 +22,7 @@
 - sass를 설치합니다. `npm install sass`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
-
+- prettier eslint를 설치합니다. `yarn add -D prettier eslint-plugin-prettier eslint-config-prettier`
+# yarn 코드 작성시 유의 사항
+## yarn install - 이전 버전 설치 (마스터의 최신 버전은 아님)
+## yarn upgrade --check-files - 마스터에서 최신 버전 설치
